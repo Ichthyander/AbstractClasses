@@ -26,6 +26,14 @@ namespace Task_1
     {
         static void Main(string[] args)
         {
+            Cat cat = new Cat("Мурка");
+            cat.ShowInfo();
+            Console.WriteLine();
+
+            Dog dog = new Dog("Шарик");
+            dog.ShowInfo();
+
+            Console.ReadKey();
         }
     }
 }

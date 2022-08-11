@@ -8,7 +8,7 @@ namespace Task_1
 {
     abstract class Animal
     {
-        string name;
+        
 
         public abstract string Name { get; set; }
 
@@ -17,11 +17,11 @@ namespace Task_1
             Name = name;
         }
 
-        public abstract string Say();
+        public abstract void Say();
 
         public void ShowInfo()
         {
-            Console.WriteLine(name);
+            Console.WriteLine(Name);
             Say();
         }
     }
